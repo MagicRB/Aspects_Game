@@ -36,21 +36,32 @@ public class grid_manager : MonoBehaviour {
 		return obj;
 	}
 
+	void draw_hex_from_hexes(int vertical_radius, ref grid_matrix grid) {
+		for (int x = -vertical_radius; x <= vertical_radius; x++) {
+			if (x < 0) {
+				for (int y = -vertical_radius - x; y <= vertical_radius; y++) {
+					grid [x, y] = create_hex (x, y, 16.0f);
+				}
+			} else if (x > 0) {
+				for (int y = -vertical_radius; y <= vertical_radius - x; y++) {
+					grid [x, y] = create_hex (x, y, 16.0f);
+				}
+			} else {
+				for (int y = -vertical_radius; y <= vertical_radius; y++) {
+					grid [x, y] = create_hex (x, y, 16.0f);
+				}
+			}
+		}
+	}
+
 	// Use this for initialization
 	void Start () {
 
 		grid_matrix grid = new grid_matrix();
-		grid.set_size(10);
+		grid.set_size(17);
 
-		for (int i = 0; i < 8; i++) {
-			
-		}
+		draw_hex_from_hexes (8, ref grid);
 
-		grid[0, 0] = create_hex(0, 0, 16.0f);
-		grid[1, 0] = create_hex(1, 0, 16.0f);
-		grid[1, -1] = create_hex(1, -1, 16.0f);
-		grid[-1, 1] = create_hex(-1, 1, 16.0f);
-		grid[-1, 0] = create_hex(-1, 0, 16.0f);
 	}
 	
 	// Update is called once per frame
