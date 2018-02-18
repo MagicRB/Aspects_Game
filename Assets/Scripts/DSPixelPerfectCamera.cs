@@ -29,7 +29,7 @@ public class DSPixelPerfectCamera : MonoBehaviour
 
 	void SetOrthographicSize()
 	{
-		ValidateUserInput();
+		ValidateUserInput(); 
 
 		// get device's screen height and divide by the number of units 
 		// that we want to fit on the screen vertically. this gets us

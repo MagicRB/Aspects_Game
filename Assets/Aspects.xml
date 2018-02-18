@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aspects>
+<aspect>
+    <name>Aer</name>
+    <keywords>air</keywords>
+    <isPrimal>true</isPrimal>
+    <component1></component1>
+    <component2></component2>
+</aspect>
+
+<aspect>
+    <name>Alienis</name>
+    <keywords>eldrich</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Tenebrae</component1>
+    <component2>Vacuos</component2>
+</aspect>
+
+<aspect>
+    <name>Aqua</name>
+    <keywords>water</keywords>
+    <isPrimal>true</isPrimal>
+    <component1></component1>
+    <component2></component2>
+</aspect>
+
+<!--<aspect>
+    <name>Arbor</name>
+    <keywords>tree</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Aer</component1>
+    <component2>Herba</component2>
+</aspect>-->
+
+<aspect>
+    <name>Auram</name>
+    <keywords>aura</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Aer</component1>
+    <component2>Praecantatio</component2>
+</aspect>
+
+<aspect>
+    <name>Bestia</name>
+    <keywords>animal</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Motus</component1>
+    <component2>Victus</component2>
+</aspect>
+
+<aspect>
+    <name>Cognitio</name>
+    <keywords>mind</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Ignis</component1>
+    <component2>Spiritus</component2>
+</aspect>
+
+<!--<aspect>
+    <name>Corpus</name>
+    <keywords>flesh</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Bestia</component1>
+    <component2>Mortuus</component2>
+</aspect>-->
+
+<!--<aspect>
+    <name>Examinis</name>
+    <keywords>undead</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Motus</component1>
+    <component2>Mortuus</component2>
+</aspect>-->
+
+<aspect>
+    <name>Fabrico</name>
+    <keywords>craft, repair</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Humanus</component1>
+    <component2>Instrumentum</component2>
+</aspect>
+
+<!--<aspect>
+    <name>Fames</name>
+    <keywords>hunger</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Vacuos</component1>
+    <component2>Victus</component2>
+</aspect>-->
+
+<aspect>
+    <name>Gelum</name>
+    <keywords>cold, ice</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Ignis</component1>
+    <component2>Perditio</component2>
+</aspect>
+
+<aspect>
+    <name>Herba</name>
+    <keywords>plant</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Terra</component1>
+    <component2>Victus</component2>
+</aspect>
+
+<aspect>
+    <name>Humanus</name>
+    <keywords>human</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Bestia</component1>
+    <component2>Cognitio</component2>
+</aspect>
+
+<aspect>
+    <name>Ignis</name>
+    <keywords>fire</keywords>
+    <isPrimal>true</isPrimal>
+    <component1></component1>
+    <component2></component2>
+</aspect>
+
+<aspect>
+    <name>Instrumentum</name>
+    <keywords>tool</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Humanus</component1>
+    <component2>Ordo</component2>
+</aspect>
+
+<!---<aspect>
+    <name>Iter</name>
+    <keywords>travel</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Matus</component1>
+    <component2>Terra</component2>
+</aspect>-->
+
+<!--<aspect>
+    <name>Limus</name>
+    <keywords>slime</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Aqua</component1>
+    <component2>Victus</component2>
+</aspect>-->
+
+<!--<aspect>
+    <name>Lucrum</name>
+    <keywords>greed, wealth</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Fames</component1>
+    <component2>Humanus</component2>
+</aspect>-->
+
+<aspect>
+    <name>Lux</name>
+    <keywords>light</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Aer</component1>
+    <component2>Ignis</component2>
+</aspect>
+
+<aspect>
+    <name>Machina</name>
+    <keywords>machine, device</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Instrumentum</component1>
+    <component2>Motus</component2>
+</aspect>
+
+<!--<aspect>
+    <name>Messis</name>
+    <keywords>crop</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Herba</component1>
+    <component2>Humanus</component2>
+</aspect>-->
+
+<aspect>
+    <name>Metallum</name>
+    <keywords>metal</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Terra</component1>
+    <component2>Vitreus</component2>
+</aspect>
+
+<!--<aspect>
+    <name>Meto</name>
+    <keywords>harvest</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Mortuus</component1>
+    <component2>Messis</component2>
+</aspect>-->
+
+<aspect>
+    <name>Mortuus</name>
+    <keywords>death</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Perditio</component1>
+    <component2>Victus</component2>
+</aspect>
+
+<aspect>
+    <name>Motus</name>
+    <keywords>motion</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Perditio</component1>
+    <component2>Victus</component2>
+</aspect>
+
+<aspect>
+    <name>Ordo</name>
+    <keywords>order</keywords>
+    <isPrimal>true</isPrimal>
+    <component1></component1>
+    <component2></component2>
+</aspect>
+
+<!--<aspect>
+    <name>Pannus</name>
+    <keywords>cloth</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Bestia</component1>
+    <component2>Instrumentum</component2>
+</aspect>-->
+
+<aspect>
+    <name>Perditio</name>
+    <keywords>chaos</keywords>
+    <isPrimal>true</isPrimal>
+    <component1></component1>
+    <component2></component2>
+</aspect>
+
+<!--<aspect>
+    <name>Perfodio</name>
+    <keywords>mining</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Humanus</component1>
+    <component2>Terra</component2>
+</aspect>-->
+
+<aspect>
+    <name>Permutatio</name>
+    <keywords>exchange</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Ordo</component1>
+    <component2>Perditio</component2>
+</aspect>
+
+<aspect>
+    <name>Potentia</name>
+    <keywords>energy</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Ignis</component1>
+    <component2>Ordo</component2>
+</aspect>
+
+<aspect>
+    <name>Praecantatio</name>
+    <keywords>magic</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Ordo</component1>
+    <component2>Perditio</component2>
+</aspect>
+
+<!--<aspect>
+    <name>Sano</name>
+    <keywords>healing</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Ordo</component1>
+    <component2>Victus</component2>
+</aspect>-->
+
+<aspect>
+    <name>Sensus</name>
+    <keywords>senses</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Aer</component1>
+    <component2>Spiritus</component2>
+</aspect>
+
+<aspect>
+    <name>Spiritus</name>
+    <keywords>soul</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Mortuus</component1>
+    <component2>Victus</component2>
+</aspect>
+
+<!--<aspect>
+    <name>Telum</name>
+    <keywords>weapon</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Ignis</component1>
+    <component2>Instrumentum</component2>
+</aspect>-->
+
+<!--<aspect>
+    <name>Tempenstas</name>
+    <keywords>weather</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Aer</component1>
+    <component2>Aqua</component2>
+</aspect>-->
+
+<aspect>
+    <name>Tenebrae</name>
+    <keywords>darkness</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Lux</component1>
+    <component2>Vacuos</component2>
+</aspect>
+
+<aspect>
+    <name>Terra</name>
+    <keywords>earth, ground</keywords>
+    <isPrimal>true</isPrimal>
+    <component1></component1>
+    <component2></component2>
+</aspect>
+
+<!--<aspect>
+    <name>Tutamen</name>
+    <keywords>armor</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Instrumentum</component1>
+    <component2>Terra</component2>
+</aspect>-->
+
+<aspect>
+    <name>Vacuos</name>
+    <keywords>void</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Aer</component1>
+    <component2>Perditio</component2>
+</aspect>
+
+<!--<aspect>
+    <name>Venenum</name>
+    <keywords>void</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Aqua</component1>
+    <component2>Perditio</component2>
+</aspect>-->
+
+<aspect>
+    <name>Victus</name>
+    <keywords>life</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Aqua</component1>
+    <component2>Terra</component2>
+</aspect>
+
+<aspect>
+    <name>Vinculum</name>
+    <keywords>trap</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Motus</component1>
+    <component2>Perditio</component2>
+</aspect>
+
+<aspect>
+    <name>Vitium</name>
+    <keywords>taint</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Perditio</component1>
+    <component2>Praecantatio</component2>
+</aspect>
+
+<aspect>
+    <name>Vitreus</name>
+    <keywords>crystal</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Ordo</component1>
+    <component2>Terra</component2>
+</aspect>
+
+<aspect>
+    <name>Volatus</name>
+    <keywords>flight</keywords>
+    <isPrimal>false</isPrimal>
+    <component1>Aer</component1>
+    <component2>Motus</component2>
+</aspect>
+</aspects>
